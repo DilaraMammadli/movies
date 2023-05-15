@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  body {
+    background-color: teal;
+  }
+  .movies {
+    width: 1200px;
+    max-width: 95%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  .movie img {
+    width: 100%;
+  }
+  .movie {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  #pagination {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  #pagination li {
+    padding: 10px;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #000;
+  }
+  #pagination li.active {
+    background-color: #feca57;
+  }
+  input {
+    padding: 20px 30px;
+    margin: 10px 440px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
